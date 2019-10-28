@@ -1,0 +1,219 @@
+@media only screen and (max-width: 600px)
+{
+
+	.container
+	{
+    	margin: 0 60px;
+	}
+	/* <<<<<<< Header section responsive start >>>>>>> */
+	.header-item ul
+	{
+		flex-direction: column;
+		width: 100%;
+		padding: 0px;
+	}
+	/* <<<<<<<<<< Menu section responsive start >>>>>>>>>> */
+	.flex-menu
+	{	
+		flex-direction: column;
+		position: relative;
+	}
+	.menu-icon2
+	{
+		display: block;
+		position: absolute;
+		right: 20px;
+	}
+	#myTopnav
+	{
+		z-index: 999999;
+	}
+	#myTopnav div:not(:first-child)
+	{
+		display: none;
+	}
+	.menu
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	/* <<<<<<<<< All-service section start >>>>>>>>> */
+	#all-services
+	{
+		padding: 30px 0px;
+	}
+	.flex-all-services-top
+	{
+		flex-direction: column;
+	}
+	.services-top-item
+	{
+		width: 80%;
+		margin-top:20px; 
+	}
+	.flex-all-services-dwon
+	{
+		flex-direction: column;
+	}
+	.services-dwon-item
+	{
+		width: 80%;
+		margin-top:20px; 
+	}
+ 	/* <<<<<<<<< About section start >>>>>>>>> */
+ 	#about
+ 	{
+ 		padding-top: 20px; 
+ 	}
+	.about-item
+	{
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		align-items: center;
+	}
+	.about-item h1
+	{
+    	font-size: 25px;
+
+	}
+	/* <<<<<<<<< features section css start >>>>>>>> */
+	#features
+	{
+		padding: 30px 0px;
+	}
+	.flex-features
+	{
+		flex-direction: column;
+	}
+	.features-item
+	{
+		padding-top: 20px;
+	}
+	.features-heading span
+	{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	
+	/* <<<<<<<<< pricing section css start >>>>>>>> */
+	#pricing
+	{
+		padding: 30px 0px;
+	}
+	.pricing-heading span
+	{
+		line-height: 35px;
+		font-size: 30px;
+	}
+	.flex-pricing
+	{
+		flex-direction: column;
+	}
+	.pricing-item
+	{
+		margin-top: 20px;
+		padding: 20px 50px;
+
+	}
+	.pricing-item:hover
+	{
+		padding: 20px 60px;
+	}
+	/* <<<<<<<<< sponser section css start >>>>>>>> */
+	#sponser
+	{
+		padding-top: 30px;
+	}
+	.flex-sponser
+	{
+		flex-direction: column;	
+	}
+	.sponcer-item
+	{
+		margin-top: 20px;
+	}
+	/* <<<<<<<<< contact section css start >>>>>>>> */
+	#contact
+	{
+		padding: 30px 0px;
+	}
+	.flex-contact
+	{
+		flex-direction: column;
+	}
+	.contact-item
+	{
+		width: 100%;
+	}
+
+	.flex-footer
+	{
+		flex-direction: column;
+	}
+}
+/* <<<<<<<<<<< 601 to 767 px responsive css start >>>>>>>>>>> */
+@media only screen /*and (min-width: 601px)*/ and (max-width: 767px)
+{
+	.container
+	{
+    	margin: 0 60px;
+	}
+	/* <<<<<<<<<< Menu section responsive start >>>>>>>>>> */
+	.menu-item nav ul
+	{
+    	display: flex;
+		flex-direction: column;
+	}
+	/* <<<<<<<<<< Service section responsive start >>>>>>>>>> */
+	.flex-all-services-top
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+	.services-top-item
+	{
+		width: 50%;
+		margin-top: 20px;
+	}
+	.flex-all-services-dwon
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+	.services-dwon-item
+	{
+		width: 50%;
+		margin-top: 20px;
+	}
+/* <<<<<<<<< pricing section css start >>>>>>>> */
+	.flex-pricing
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+	.pricing-item
+	{
+		width: 50%;
+		margin-top: 20px;
+	}
+
+/*<<<<<<<< sponcer section css start >>>>>>>>*/
+	.sponcer-item
+	{
+		width: 20%;
+	}
+	.sponcer-item img
+	{
+		width: 50px;
+	}
+	.img4 img
+	{
+		width: 100PX;
+	}
+/* <<<<<<<<< contact section css start >>>>>>>> */
+	.contact-img 
+	{
+		display: none;	
+	}
+}

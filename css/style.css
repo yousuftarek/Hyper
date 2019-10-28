@@ -1,0 +1,610 @@
+/*font-name: Montserrat */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*
+# Project Name: Morsum ;
+# Project Athor: Azharul Islam Masud ;
+# Project Start Date : 28-02-2019 ;
+# Versin : 1.0;
+# All Section:
+  1-Header.
+    => HTML START & END- line(10-24).
+    => CSS START & END- line(61-87).
+  2-Menu.
+    => HTML START & END- line(26-57).
+    => CSS START & END- line(89-132).
+  3-Service.
+    => HTML START & END- line(62-69).
+    => CSS START & END- line(134-160).
+  4-all-services.
+    => HTML START & END- line(71-116).
+    => CSS START & END- line(162-200).
+  5-About.
+    => HTML START & END- line(118-131).
+    => CSS START & END- line(208-243). 
+  6-features.
+    => HTML START & END- line(133-159).
+    => CSS START & END- line(239-282).
+  7-Pricing. 
+    => HTML START & END- line(161-211).
+    => CSS START & END- line(284-354).
+  8-Sponser.
+    => HTML START & END- line(213-239).
+    => CSS START & END- line(256-379).
+  9-Contact.
+    => HTML START & END- line(243-281).
+    => CSS START & END- line(284-438).
+  10-footer.
+    => HTML START & END- line(283-300).
+    => CSS START & END- line(440-458).
+*/
+
+
+/* @@@==>" Base css start "<==@@@ */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container
+{
+    margin: 0 95px;
+}
+/* @@@==>" Base css end "<==@@@ */
+
+/* ........ * header section css start  * ........ */
+
+.header
+{
+    color: #adadad;
+    border-bottom: 1px solid #adadad;
+    font-size: 14px;
+    background: rgba(255,255,200,.9);
+}
+.flex-header
+{
+    display: flex;
+    padding: 10px 0px;
+}
+.header-item ul
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5px;
+}
+.header-item a
+{
+    padding: 0px 10px;
+}
+.header-item .header-icon
+{
+    padding: 0px 5px 0px 0px;
+}
+.header-icon:hover
+{
+    color: #ff531e;
+    font-size: 20px;
+}
+/* ........ * header section css end  * ........ */
+
+/* ........ * Menu section css start  * ........ */
+
+#menu
+{
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(255,255,200,.9);
+    color: #fff;
+}
+.flex-menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-icon2
+{
+    display: none;
+}
+.logo img
+{
+    height: 25px;
+}
+.logo a
+{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    /*margin-bottom: 10px;*/
+}
+.menu
+{
+    padding-top: 10px;
+}
+.menu a
+{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.menu a:hover
+{
+    color: #fff;
+    background: #15415D;
+}
+.menu-icon
+{
+    padding: 10px;
+    position: relative;
+}
+.menu-icon a
+{
+    padding: 0px 5px;
+    color: #000;
+    font-weight: 500;
+}
+.search-box
+{
+    top: 50%;
+    float: right;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+}
+.search-box:hover >.src-text
+{
+    width: 140px;
+    padding: 0px 8px;
+    transition: .3s;
+}
+.search-box:hover >.src-btn
+{
+    display: none;
+}
+.src-btn
+{
+    height: 40px;
+    width: 30px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    float: right;
+    align-items: center;
+    text-decoration: none;
+    color: #F47983;
+    transition: .4s;
+    color: #fff;
+}
+.src-text
+{
+    border:none;
+    background: none;
+    outline: none;
+    line-height: 40px;
+    color: #000;
+    width: 0px;
+    float: left;
+}
+/* ........ * menu section css end  * ........ */
+
+/* ........ * service section css start  * ........ */
+
+#service
+{
+    background: #15415d;
+    padding: 0px;
+    /*border: 1px solid #15415d;*/
+    padding: 20px 0px;
+}
+.service-text p
+{
+    color: #fff;
+    font-size: 54px;
+    text-align: center;
+    position: relative;
+}
+.service-text p:after{
+    content: "";
+    background: #fff;
+    height: 2px;
+    width: 108px;
+    position: absolute;
+    left: 46%;
+    top: auto;
+}
+
+/* ........ * service section css end  * ........ */
+
+/* ....... all-services section css start ..... */
+
+#all-services
+{
+    padding: 80px 0px;   
+}
+.flex-all-services-top
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services-top-item
+{
+    padding: 30px 40px;
+    border: 1px solid #e2ebf1;
+    width: 23%;
+    line-height: 25px;
+    border-top: 3px solid #08b5f9;
+    border-radius: 10px;
+}
+.services-top-item:hover
+{
+    box-shadow: 0px 0px 5px 3px #ccc;
+    padding: 40px 45px;
+    transition: 0.5s;
+}
+.flex-all-services-dwon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.services-dwon-item
+{
+    padding: 30px 40px;
+    border: 1px solid #e2ebf1;
+    width: 23%;
+    line-height: 25px;
+    border-top: 3px solid #08b5f9;
+    border-radius: 10px;
+}
+.services-dwon-item:hover
+{
+    padding: 40px 45px;
+    box-shadow: 0px 0px 5px 3px #ccc;
+    transition: 0.5s;
+}
+.service-icon
+{
+    color: #08b5f9;
+}
+.service-icon:hover
+{
+    color: #ff531e;
+    font-size: 55px;
+    transition: .5s;
+}
+
+/* ....... all-services section css end ..... */
+
+/* ....... about section css start ..... */
+
+#about
+{
+    background: #f7f7f7;
+    padding: 30px 0px;
+}
+.about-item
+{
+    width: 65%;
+    padding: 0px 150px 0px 0px;
+}
+.about-item h1
+{
+    font-size: 35px;
+}
+.about-item p
+{
+    padding: 0px 50px 0px 0px;
+    font-size: 17px;
+}
+.about-item .about-icon
+{
+    color: #08b5f9;
+    padding: 0px 10px 0px 0px;
+}
+.about-icon:hover
+{
+    color: #ff531e;
+    transition: .3s;
+}
+.btn1
+{
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: #08b5f9;
+    border: 2px solid #08b5f9;
+    border-radius: 5px;
+    background: none;
+    font-weight: 700;
+}
+.btn1:hover
+{
+    background: #08b5f9;
+    color: #fff;
+    transition: .9s;
+}
+/* ....... about section css end ..... */
+
+/* ....... features section css start ..... */
+#features
+{
+    padding: 80px 0px;
+}
+.features-heading
+{
+    margin: 0px auto;
+    line-height: 15px;
+    text-align: center;
+}
+.flex-features
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.features-heading span
+{
+    font-size: 40px;
+}
+.features-heading p
+{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #08b5f9;
+}
+.features-item
+{
+    padding-top: 50px; 
+}
+.features-item .icon
+{
+    padding: 25px;
+    border-radius: 100%;
+    border: 2px solid #e2ebf1;
+    color: #08b5f9;
+    cursor: pointer;
+}
+.icon:hover
+{
+    background:#08b5f9;
+    color: #fff;
+    padding: 30px;
+    transition: 0.5s;
+    font-size: 25px; 
+}
+.features-item p
+{
+    font-size: 15px;
+}
+/* ....... features section css end ..... */
+
+/* ....... Pricing section css start ..... */
+#pricing
+{
+    background: #f7f7f7;
+    padding: 80px 0px;
+}
+.pricing-heading
+{
+    text-align: center;
+    line-height: 15px;
+}
+.pricing-heading span
+{
+    font-size: 40px;
+}
+.pricing-heading p
+{
+    text-transform: uppercase; 
+    color: #08b5f9; 
+    font-size: 13px; 
+}
+.flex-pricing
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding-top:50px;  
+}
+.pricing-item
+{
+    width: 26%;
+    align-items: center;
+    text-align: center;
+    border-top: 5px solid #08b5f9;
+    background: #fff;
+    box-shadow: ;
+    padding: 30px;
+    border-radius: 10px;
+}
+.pricing-item:hover
+{
+    box-shadow: 0px 0px 5px 8px #ccc;
+    transition: 1s;
+    padding: 40px;
+}
+.pricing-item span
+{
+    text-transform: uppercase;
+}
+.pricing-item h1
+{
+    font-size: 45px;
+}
+.pricing-item .pricing-icon
+{
+    color: #ff531e;
+    padding: 0px 5px;
+}
+.pricing-icon:hover
+{
+    font-size: 20px;
+    transition: .3s;
+}
+.pricing-item ul li
+{
+    padding: 5px 0px;
+}
+.pricing-item .btn2
+{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 0px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #e4e4e4;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.pricing-item .btn2:hover
+{
+    padding: 15px 20px;
+    background: #ff531e;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    transition: .7s;
+    border: none;
+}
+/* ....... Pricing section css end ..... */
+
+/* ....... sponser section css start ..... */
+#sponser
+{
+    padding: 50px 0px;
+}
+.flex-sponser
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.add2
+{
+    display: flex;
+    flex-direction: column;
+}
+.add2 img
+{
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+/* ....... sponser section css end ..... */
+
+/* ....... Contact section css end ..... */
+#contact
+{
+    background: #1b2434;
+    color: #fff;
+    padding: 60px 0px;
+}
+.flex-contact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-item
+{
+    width: 25%;
+    padding: 0px 20px;
+}
+.item1
+{
+    padding-top: 20px;
+}
+.contact-item h4
+{
+    text-transform: uppercase;
+}
+.contact-item span
+{
+    font-size: 26.26px;
+}
+.contact-icon
+{
+    padding: 5px;
+    background: #384457;
+    cursor: pointer;
+}
+
+.contact-item p
+{
+    font-size: 14px;
+}
+.contact-item ul li a
+{
+    color: #fff;
+    font-size: 12px;
+}
+.contact-item ul li a i
+{
+    background: none;
+    padding: 15px 5px;
+    color: #365ef4;
+}
+.contact-icon1
+{
+    padding:0 5px;
+    
+}
+.contact-icon1:hover
+{
+    color: #08b5f9;
+}
+.contact-icon:hover
+{
+    color: #08b5f9;
+    padding: 10px;
+    font-size: 25px;
+    transition: .5s;
+    border-radius: 5px;
+}
+/* ....... Contact section css end ..... */
+
+/* ....... footer section css end ..... */
+#footer
+{
+    background: #1b2434;
+    padding: 20px 0px;
+    border-top: 1px solid #232e41;
+    color: #fff;
+}
+.flex-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-item img
+{
+    padding-top: 17px;
+}
+/* ....... footer section css end ..... */
